@@ -1,0 +1,18 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width:960px;
+}
+
+/*--slick--*/
+#comming_movie .autoplay img{
+  display: block;
+  width: 100%;
+}
+
+/*--slickここまで--*/

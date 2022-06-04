@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*--main--*/
+main .overview{
+  margin-bottom: 50px;
+}
+
+main .overview img{
+  width: 400px;
+  height: 100%;
+}
+
+main .overview dt{
+  margin-bottom: 10px;
+}
+
+main .overview dl{
+  width:500px;
+}
+
+main .each_theater_schedule{
+  margin-bottom: 30px;
+}

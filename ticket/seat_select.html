@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <title>チケット購入 | TSUKADA CINEMA</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+  <link rel="stylesheet" href="../assets/css/ticket.css">
+  <script src="../assets/js/jquery-3.6.0.min.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/ticket.js"></script>
+</head>
+
+<body>
+
+  <div class="sticky_header">
+    <header class="inner ds_f jc_sb ws_no">
+      <h1 class="logo"><a href="../index.html"><span class="word_t">T</span>SU<span class="word_k">K</span>A<span
+            class="word_d">D</span>A CINEMA</a></h1>
+
+      <ul class="sns ds_f">
+        <li><a href="#"><img src="../assets/images/instagram.png" alt="instagram"></a></li>
+        <li><a href="#"><img src="../assets/images/line.png" alt="line"></a></li>
+        <li><a href="#"><img src="../assets/images/twitter.png" alt="twitter"></a></li>
+      </ul>
+      <div class="hamburger_btn"><span></span><span></span><span></span></div>
+    </header>
+    <nav class="nav_bg">
+      <ul class="inner ds_f jc_sb ws_no">
+        <li class="sp_nav"><a href="../index.html">ホーム</a></li>
+        <li><a href="../theater/index.html">劇場案内</a></li>
+        <li><a href="../movie/index.html">作品案内</a></li>
+        <li><a href="../equipment/index.html">設備紹介</a></li>
+        <li><a href="../news/index.html">お知らせ</a></li>
+        <li><a class="current" href="../ticket/index.html">チケット購入</a></li>
+        <li>
+          <ul class="sns ds_f">
+            <li><a href="#"><img src="../assets/images/instagram.png" alt="instagram"></a></li>
+            <li><a href="#"><img src="../assets/images/line.png" alt="line"></a></li>
+            <li><a href="#"><img src="../assets/images/twitter.png" alt="twitter"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <main class="main_inner">
+    <h2>購入画面</h2>
+    <div class="ds_f jc_sb">
+      <div class="left_content">
+        <section class="seat_select">
+          <h3>シートを選択してください</h3>
+          <table>
+            <tr>
+              <th colspan="10" class="screen"></th>
+            </tr>
+            <tr>
+              <th>座席</th>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>
+              <th>6</th>
+              <th>7</th>
+              <th>8</th>
+              <th>9</th>
+            </tr>
+            <tr>
+              <th>A</th>
+              <td>A1</td>
+              <td>A2</td>
+              <td>A3</td>
+              <td>A4</td>
+              <td>A5</td>
+              <td>A6</td>
+              <td>A7</td>
+              <td>A8</td>
+              <td>A9</td>
+            </tr>
+            <tr>
+              <th>B</th>
+              <td>B1</td>
+              <td>B2</td>
+              <td>B3</td>
+              <td>B4</td>
+              <td>B5</td>
+              <td>B6</td>
+              <td>B7</td>
+              <td>B8</td>
+              <td>B9</td>
+            </tr>
+            <tr>
+              <th>C</th>
+              <td>C1</td>
+              <td>C2</td>
+              <td>C3</td>
+              <td>C4</td>
+              <td>C5</td>
+              <td>C6</td>
+              <td>C7</td>
+              <td>C8</td>
+              <td>C9</td>
+            </tr>
+            <tr>
+              <th>D</th>
+              <td>D1</td>
+              <td>D2</td>
+              <td>D3</td>
+              <td>D4</td>
+              <td>D5</td>
+              <td>D6</td>
+              <td>D7</td>
+              <td>D8</td>
+              <td>D9</td>
+            </tr>
+            <tr>
+              <th>E</th>
+              <td>E1</td>
+              <td>E2</td>
+              <td>E3</td>
+              <td>E4</td>
+              <td>E5</td>
+              <td>E6</td>
+              <td>E7</td>
+              <td>E8</td>
+              <td>E9</td>
+            </tr>
+            <tr>
+              <th>F</th>
+              <td>F1</td>
+              <td>F2</td>
+              <td>F3</td>
+              <td>F4</td>
+              <td>F5</td>
+              <td>F6</td>
+              <td>F7</td>
+              <td>F8</td>
+              <td>F9</td>
+            </tr>
+            <tr>
+              <th>G</th>
+              <td>G1</td>
+              <td>G2</td>
+              <td>G3</td>
+              <td>G4</td>
+              <td>G5</td>
+              <td>G6</td>
+              <td>G7</td>
+              <td>G8</td>
+              <td>G9</td>
+            </tr>
+            <tr>
+              <th>H</th>
+              <td>H1</td>
+              <td>H2</td>
+              <td>H3</td>
+              <td>H4</td>
+              <td>H5</td>
+              <td>H6</td>
+              <td>H7</td>
+              <td>H8</td>
+              <td>H9</td>
+            </tr>
+            <tr>
+              <th>I</th>
+              <td>I1</td>
+              <td>I2</td>
+              <td>I3</td>
+              <td>I4</td>
+              <td>I5</td>
+              <td>I6</td>
+              <td>I7</td>
+              <td>I8</td>
+              <td>I9</td>
+            </tr>
+          </table>
+          <p class="selected_seat">シートが選択されていません</p>
+
+          <button class="reset_btn">リセット</button>
+          <button class="next_btn">次へ</button>
+        </section>
+      </div>
+      <div class="right_content">
+        <section class="purchase_details">
+          <h4>購入内容</h4>
+          <dl class="ds_f">
+            <dt>劇場</dt>
+            <dd class="selected_theater"></dd>
+            <dt>作品</dt>
+            <dd class="selected_movie"></dd>
+            <dt>日時</dt>
+            <dd class="selected_date"></dd>
+          </dl>
+        </section>
+      </div>
+
+    </div>
+
+
+  </main>
+
+  <footer class="ds_f ws_no">
+    <p><small>Copyright&copy;2022 TSUKADA CINEMA All rights reserved.</small></p>
+    <ul class="sns ds_f">
+      <li><a href="#"><img src="../assets/images/instagram.png" alt="instagram"></a></li>
+      <li><a href="#"><img src="../assets/images/line.png" alt="line"></a></li>
+      <li><a href="#"><img src="../assets/images/twitter.png" alt="twitter"></a></li>
+    </ul>
+
+  </footer>
+</body>
+
+</html>

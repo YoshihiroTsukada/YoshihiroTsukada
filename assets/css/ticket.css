@@ -1,0 +1,212 @@
+@charset "utf-8";
+/*--共通--*/
+main .left_content{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .right_content{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .right_content dl{
+  width: 300px;
+}
+
+main .right_content dt{
+  width:50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+main .right_content dd{
+  width:250px;
+  margin-bottom: 30px;
+}
+
+/*--index--*/
+main .how_to_buy,
+main .how_to_buy section{
+  margin-bottom: 100px;
+}
+
+main .how_to_buy img{
+  width:300px;
+  border: 1px solid #222;
+}
+
+main .how_to_buy dl{
+  width: 150px;
+}
+
+main .how_to_buy dt{
+  width: 50px;
+}
+
+main .how_to_buy dd{
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+main .white_seat::after{
+  content:"　";
+  background-color: #fff;
+  border:1px solid #333;
+}
+main .blue_seat::after{
+  content:"　";
+  background-color: #00f;
+  border:1px solid #333;
+}
+main .red_seat::after{
+  content:"　";
+  background-color: #f00;
+  border:1px solid #333;
+}
+
+main .num1::before{
+  content:"➀";
+}
+
+main .num2::before{
+  content:"➁";
+}
+
+
+
+/*--theater_select--*/
+main .theater_select li{
+  font-size: 1.275rem;
+  margin-bottom: 10px;
+}
+
+main .theater_select li:hover{
+  opacity: .5;
+  transition: .3s;
+  cursor: pointer;
+}
+
+/*--movie_selectはcommon.css--*/
+
+/*--seat_select--*/
+main .seat_select table{
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+main .seat_select td{
+  background-color: #fff;
+}
+
+main .seat_select td:hover{
+  background-color: #00f;
+  color:#00f;
+  cursor: pointer;
+  opacity: .5;
+}
+
+/*--ticket_select--*/
+main .ticket_select dl{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
+
+main .ticket_select dt{
+  width: 100px;
+}
+
+main .ticket_select dd{
+  width: 400px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+main .ticket_select dd ul{
+  width: 100%;
+  position: absolute;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  z-index:1
+}
+
+main .ticket_select .total_price{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/*omikuji*/
+main .omikuji #omikuji{
+  position: relative;
+}
+
+main .omikuji #omikuji img {
+  display: block;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.cutin{
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -200px;
+  z-index: 1;
+}
+
+/*--thankyou--*/
+main.main_thankyou{
+  width: 100vw;
+  height: 100vh;
+}
+
+main .thankyou{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  }
+
+@media screen and (max-width: 650px){
+  main .left_content {
+    width: 100%;
+  }
+
+  main .ticket_select dl{
+    width: 100%;
+    font-size: 1.275rem;
+  }
+
+  main .right_content {
+    width: 100%;
+  }
+
+  main .right_content {
+    width: 100%;
+  }
+
+  main .ticket.right_content{
+    order:-1;
+  }
+
+  main .right_content dl {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+}
